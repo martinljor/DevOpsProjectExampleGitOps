@@ -6,11 +6,11 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: DevOpsProject-app
+      app: devopsprojectexample-testfile
   template:
     metadata:
       labels:
-        app: DevOpsProject-app
+        app: devopsprojectexample-testfile
     spec:
       containers:
         - name: DevOpsProject-app
