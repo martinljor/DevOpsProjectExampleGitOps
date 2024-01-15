@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: DevOpsProjectExample-deployment
+  name: devopsprojectexample-testfile
 spec:
   replicas: 2
   selector:
