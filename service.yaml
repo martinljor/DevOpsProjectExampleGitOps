@@ -3,10 +3,10 @@ kind: Service
 metadata:
   name: devopsprojectexample-service
   labels:
-    app: DevOpsProject-app
+    app: devopsprojectexample-testfile
 spec:
   selector:
-    app: DevOpsProject-app
+    app: devopsprojectexample-testfile
 
   ports:
     - port: 8080
