@@ -13,7 +13,7 @@ spec:
         app: devopsprojectexample-testfile
     spec:
       containers:
-        - name: DevOpsProject-app
+        - name: devopsprojectexample-testfile-app
           image: thegangg/devopsprojectexample-testfile:latest
           resources:
             limits:
